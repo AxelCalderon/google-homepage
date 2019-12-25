@@ -1,0 +1,127 @@
+span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    cursor: default;
+}
+
+.header div {
+    display: inline-block;
+    margin: 12px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+.header .a {
+    float: left;
+    margin-left: 15px;
+}
+
+.header .b {
+    direction: ltr;
+    float: right;
+    margin-right: 15px;
+}
+
+#grid_circle {
+    margin: 0px;
+    border-radius: 20px;
+    height: 36px;
+    width: 36px;
+    position: relative;
+}
+#grid_circle svg {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    margin: 6px;
+}
+#grid_circle:hover {
+    background-color: #f1f1f1;
+}
+#grid {
+    position: relative;
+    vertical-align: middle;
+    height: 36px;
+    width: 36px;
+    margin: 0px;
+    cursor: pointer;
+}
+#grid path {
+    display: relative;
+    margin: 0px;
+    fill: #5c5c5c;
+}
+
+#sign_in {
+    position: relative;
+    display: inline-block;
+    line-height: 28px;
+    color: white;
+    margin: 0px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(#4387fd,#4683ea);
+    border-radius: 2px;
+    padding: 0px 12px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+#Google {
+    width: 275px;
+    display: block;
+    margin: auto;
+    padding-top: 240px;
+    padding-bottom: 0px;
+}
+
+#search_bar {
+    display: table;
+    margin: auto;
+    border: 1px solid #cfcece;
+    border-radius:50px;
+    margin-top: 25px;
+}
+
+#search_bar:hover{
+    box-shadow: 0px 1px 5px #bbbbbb;
+    border: 1px solid white;
+}
+
+#search_bar:focus {
+    box-shadow: 0px 1px 5px #bbbbbb;
+    border: 1px solid white;
+}
+
+#search_bar svg {
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    padding-top: 0px;
+    align-content: flex-start;
+    fill: #8b8b8b;
+}
+
+#text_input {
+    width: 410px;
+    height: 34px;
+    margin: 3px;
+    border: none;
+    font-size: 16px;
+    align-content: center;
+}
+
+#text_input:focus{
+    outline: none;
+}
